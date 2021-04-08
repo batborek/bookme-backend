@@ -18,6 +18,10 @@ from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
 
+admin.site.site_header = 'bookme-api'
+admin.site.site_title = 'bookme-api'
+admin.site.index_title = 'bookme-api'
+
 urlpatterns = [
     path('api/',include('bookme_api.urls')),
     path('admin/', admin.site.urls),
