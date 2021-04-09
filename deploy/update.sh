@@ -2,7 +2,7 @@
 
 set -e
 
-PROJECT_BASE_PATH='/usr/local/apps/bookme_api'
+PROJECT_BASE_PATH='/usr/local/apps/bookme'
 
 git pull
 $PROJECT_BASE_PATH/env/bin/python manage.py migrate
