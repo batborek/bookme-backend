@@ -5,6 +5,7 @@ from rest_framework.response import Response
 from bookme_api import models, serializers
 from rest_framework.authentication import TokenAuthentication
 from bookme_api import permissions
+from rest_framework.authtoken.models import Token
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.settings import api_settings
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
